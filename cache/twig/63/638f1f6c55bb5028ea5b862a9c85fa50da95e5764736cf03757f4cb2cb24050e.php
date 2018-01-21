@@ -52,15 +52,15 @@ class __TwigTemplate_13798f1e9cd415347febce8d75d33c793a13ec8537bf5ecabe11ad958ce
         // line 36
         echo "        ";
         $this->displayBlock('header_navigation', $context, $blocks);
-        // line 39
+        // line 40
         echo "
         ";
-        // line 40
-        $this->displayBlock('content', $context, $blocks);
         // line 41
+        $this->displayBlock('content', $context, $blocks);
+        // line 42
         echo "        ";
         $this->displayBlock('pagination', $context, $blocks);
-        // line 42
+        // line 43
         echo "
         <div class=\"footer\">
             <div class=\"container\">
@@ -68,9 +68,9 @@ class __TwigTemplate_13798f1e9cd415347febce8d75d33c793a13ec8537bf5ecabe11ad958ce
             </div>
         </div>
         ";
-        // line 48
-        $this->displayBlock('bottom', $context, $blocks);
         // line 49
+        $this->displayBlock('bottom', $context, $blocks);
+        // line 50
         echo "    </body>
 </html>
 ";
@@ -167,24 +167,26 @@ class __TwigTemplate_13798f1e9cd415347febce8d75d33c793a13ec8537bf5ecabe11ad958ce
     // line 36
     public function block_header_navigation($context, array $blocks = array())
     {
+        echo "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+            ";
         // line 37
-        echo "            ";
         $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 37)->display($context);
         // line 38
-        echo "        ";
+        echo "            ggggggggggggggggg
+        ";
     }
 
-    // line 40
+    // line 41
     public function block_content($context, array $blocks = array())
     {
     }
 
-    // line 41
+    // line 42
     public function block_pagination($context, array $blocks = array())
     {
     }
 
-    // line 48
+    // line 49
     public function block_bottom($context, array $blocks = array())
     {
     }
@@ -201,7 +203,7 @@ class __TwigTemplate_13798f1e9cd415347febce8d75d33c793a13ec8537bf5ecabe11ad958ce
 
     public function getDebugInfo()
     {
-        return array (  188 => 48,  183 => 41,  178 => 40,  174 => 38,  171 => 37,  168 => 36,  162 => 32,  157 => 25,  154 => 24,  151 => 23,  148 => 22,  146 => 21,  143 => 20,  140 => 19,  137 => 18,  134 => 17,  130 => 14,  127 => 13,  124 => 12,  121 => 11,  113 => 27,  111 => 17,  105 => 15,  103 => 11,  99 => 10,  90 => 9,  88 => 8,  83 => 5,  80 => 4,  74 => 49,  72 => 48,  64 => 42,  61 => 41,  59 => 40,  56 => 39,  53 => 36,  50 => 35,  47 => 34,  45 => 33,  41 => 32,  37 => 30,  35 => 4,  30 => 2,  27 => 1,);
+        return array (  190 => 49,  185 => 42,  180 => 41,  175 => 38,  173 => 37,  168 => 36,  162 => 32,  157 => 25,  154 => 24,  151 => 23,  148 => 22,  146 => 21,  143 => 20,  140 => 19,  137 => 18,  134 => 17,  130 => 14,  127 => 13,  124 => 12,  121 => 11,  113 => 27,  111 => 17,  105 => 15,  103 => 11,  99 => 10,  90 => 9,  88 => 8,  83 => 5,  80 => 4,  74 => 50,  72 => 49,  64 => 43,  61 => 42,  59 => 41,  56 => 40,  53 => 36,  50 => 35,  47 => 34,  45 => 33,  41 => 32,  37 => 30,  35 => 4,  30 => 2,  27 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -249,8 +251,9 @@ class __TwigTemplate_13798f1e9cd415347febce8d75d33c793a13ec8537bf5ecabe11ad958ce
         {% if config.plugins.langswitcher.enabled %}
             {% include 'partials/langswitcher.html.twig' %}
         {% endif %}
-        {% block header_navigation %}
+        {% block header_navigation %}zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
             {% include 'partials/navigation.html.twig' %}
+            ggggggggggggggggg
         {% endblock %}
 
         {% block content %}{% endblock %}

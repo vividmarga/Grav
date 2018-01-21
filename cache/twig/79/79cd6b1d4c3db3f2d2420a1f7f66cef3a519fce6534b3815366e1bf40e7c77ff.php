@@ -16,7 +16,7 @@ class __TwigTemplate_98dd7a778be9f069e48a7ce9ddfc550ef48a861dd69dbe828b9ca461218
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        $this->loadTemplate("forgot.html.twig", "forgot.html.twig", 1, "604766915")->display(array_merge($context, array("title" => "Grav Forgot Password")));
+        $this->loadTemplate("forgot.html.twig", "forgot.html.twig", 1, "1779125404")->display(array_merge($context, array("title" => "Grav Forgot Password")));
         // line 17
         echo "
 ";
@@ -70,7 +70,7 @@ class __TwigTemplate_98dd7a778be9f069e48a7ce9ddfc550ef48a861dd69dbe828b9ca461218
 
 
 /* forgot.html.twig */
-class __TwigTemplate_98dd7a778be9f069e48a7ce9ddfc550ef48a861dd69dbe828b9ca4612187c292_604766915 extends Twig_Template
+class __TwigTemplate_98dd7a778be9f069e48a7ce9ddfc550ef48a861dd69dbe828b9ca4612187c292_1779125404 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/margazet/sites/grav/user/accounts/admin.yaml',
-    'modified' => 1513639530,
+    'modified' => 1516561119,
     'data' => [
         'email' => 'webmaster@marga.zetnet.ro',
         'fullname' => 'Marga Administrator',
@@ -18,7 +18,7 @@ return [
             ]
         ],
         'hashed_password' => '$2y$10$x0qekMdz9L7PL66LuR/ZTuplCO38LlZx5Yzc.U.NmoPblL1z9L3t2',
-        'reset' => '04a6f5a43ff8b50e88dc18d3f3f7b82c::1514244042',
+        'reset' => 'a6caebe48da573f8e53c769a08c489b6::1517165919',
         'language' => 'en',
         'login_attempts' => [
             

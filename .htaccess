@@ -75,8 +75,7 @@ DirectoryIndex index.php index.html index.htm
 # End - Prevent Browsing and Set Default Resources
 
 # php -- BEGIN cPanel-generated handler, do not edit
-# Set the “ea-php56” package as the default “PHP” programming language.
-<IfModule mime_module>
-  AddType application/x-httpd-ea-php56 .php .php5 .phtml
-</IfModule>
+# NOTE this account's php is controlled via FPM and the vhost, this is a place holder.
+# Do not edit. This next line is to support the cPanel php wrapper (php_cli).
+# AddType application/x-httpd-ea-php56 .php .phtml
 # php -- END cPanel-generated handler, do not edit

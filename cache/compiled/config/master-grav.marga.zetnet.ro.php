@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1513649663,
-    'checksum' => '0672a1d69ff73a30b5cf8bf9c161d388',
+    'timestamp' => 1515706914,
+    'checksum' => '834bfbc0e89077d22f6d0d1c9dbc8bb1',
     'files' => [
         'user/config' => [
             'media' => [
@@ -19,7 +19,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1513479006
+                'modified' => 1515706914
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -27,7 +27,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1513649663
+                'modified' => 1515685489
             ],
             'themes/bootstrap' => [
                 'file' => 'user/config/themes/bootstrap.yaml',
@@ -547,7 +547,7 @@ return [
             ]
         ],
         'site' => [
-            'title' => 'Grav',
+            'title' => 'Baby\'s born in UK',
             'default_lang' => 'en',
             'author' => [
                 'name' => 'Marga Belle',
@@ -620,7 +620,7 @@ return [
                 'override_locale' => false
             ],
             'home' => [
-                'alias' => '/home',
+                'alias' => '/five-week-of-pregnency',
                 'hide_in_urls' => false
             ],
             'pages' => [
@@ -674,7 +674,7 @@ return [
                 'etag' => false,
                 'vary_accept_encoding' => false,
                 'redirect_default_route' => false,
-                'redirect_default_code' => 302,
+                'redirect_default_code' => '302',
                 'redirect_trailing_slash' => true,
                 'ignore_files' => [
                     0 => '.DS_Store'
@@ -735,7 +735,7 @@ return [
                 ]
             ],
             'errors' => [
-                'display' => true,
+                'display' => '1',
                 'log' => true
             ],
             'debugger' => [
